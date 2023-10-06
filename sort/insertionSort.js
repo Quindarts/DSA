@@ -16,15 +16,17 @@ Xau nhat On^2
 */
 const arr = [1, 2, 3, 5, 4, 8, 6, 10, 7];
 function InsertionSort(arr) {
-    for (let i = 1; i < arr.length; i++) {
-        let x = arr[i];
-        let pos = i;
-        while (pos > 0 && x < arr[pos - 1]) {
-            arr[pos] = arr[pos - 1];
-            pos--;
-        }
-        arr[pos] = x;
+  for (let i = 1; i < arr.length; i++) {
+    let x = arr[i];
+    let pos = i;
+    while (pos > 0 && x < arr[pos - 1]) {
+      arr[pos] = arr[pos - 1];
+      pos--;
     }
-    console.log(arr);
+    arr[pos] = x;
+  }
+  console.log(arr);
 }
 InsertionSort(arr);
+
+
