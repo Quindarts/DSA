@@ -1,5 +1,4 @@
-//Tìm phần tử nhỏ nhất trong array. xong đó tiếp tục for
-//phần tự tiếp theo cho tới hết mảng.
+//Tìm phần tử nhỏ nhất trong array. xong đó tiếp tục for phần tự tiếp theo cho tới hết mảng.
 //On^2
 const arr = [1, 2, 3, 5, 4, 8, 6, 10, 7];
 function SelectionSort(arr) {
