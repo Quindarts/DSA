@@ -195,3 +195,18 @@ Kết quả:
 
 ### Video 
 {@youtube: https://www.youtube.com/watch?v=sclBjiPuStU&list=RDsclBjiPuStU&start_radio=1}
+
+```const a = [1, 4, 10, 6, 5, 9, 7];
+function BubbleSort(a) {
+    for (let i = 0; i < a.length; i++) {
+        for (let j = a.length - 1; j > i; j--) {
+            if(a[j-1] > a[j]){
+                let tmp = a[j];
+                a[j] = a[j-1];
+                a[j-1] = tmp;
+            }
+        }
+    }
+    console.log(a);
+}
+BubbleSort(a);```
